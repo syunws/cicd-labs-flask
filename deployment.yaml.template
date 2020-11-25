@@ -1,7 +1,7 @@
 serviceName: '13-125-222-101'
 containers:
   flask:
-   image: '{IMAGE_NAME}'
+   image: '${IMAGE_NAME}'
    ports:
     '8080': 'HTTP'
 publicEndpoint:
